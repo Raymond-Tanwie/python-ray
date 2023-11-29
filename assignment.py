@@ -1,3 +1,9 @@
+# use functions to do the following:
+
+# Enter a password
+# enter password confirmation
+# if both passwords are the same, return " The password and confirmation matches"
+# if not, return "The password and confirmation doesn't match"
 def check_password():
     # Enter a password
     password = input("Enter a password: ")
