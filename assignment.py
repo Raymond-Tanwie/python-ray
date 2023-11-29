@@ -1,4 +1,4 @@
-# use functions to do the following:
+# use functions to do the following::
 
 # Enter a password
 # enter password confirmation
