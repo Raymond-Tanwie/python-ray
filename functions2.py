@@ -1,0 +1,17 @@
+animals = ['dog', 'cat', 'crocodile', 'monkey', 'snake']
+animals2 = ['crocodile', 'monkey', 'snake']
+
+def listAnimals(animalsArray):
+    times = 0
+    while times < len(animalsArray):
+        animal = animalsArray[times]
+        if animal == 'crocodile' or animal == 'snake':
+            print(animal + " is very dangerous.")
+        else:
+            print('do not worry, ' + animal + ' is dangerous')
+            
+        times += 1
+        
+listAnimals(animals)
+print('---------------') 
+listAnimals(animals2)
